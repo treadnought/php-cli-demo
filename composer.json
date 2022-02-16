@@ -1,0 +1,25 @@
+{
+  "name": "treadnought/php-cli-demo",
+  "description": "PHP command-line tool demo",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Treadnought\\PhpCliDemo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ken Wallace",
+      "email": "ken@kenwallace.me"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0",
+    "symfony/console": "^5.0|^6.0"
+  },
+  "bin": [
+    "bin/demo"
+  ]
+}
